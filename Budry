@@ -180,7 +180,8 @@ lblService.grid(row=2, column=2)
 txtService=Entry(f1, font=('arial',16,'bold'),textvariable=Service_Charge,bd=10,insertwidth=4,bg="crimson",justify='right')
 txtService.grid(row=2,column=3)
 
-
+print(textservice)
+#added logger
 lblPressCost= Label(f1, font=('arial', 16, 'bold'),text="Ironing Charge",bd=16,anchor="w")
 lblPressCost.grid(row=3, column=2)
 txtPressCost=Entry(f1, font=('arial',16,'bold'),textvariable=Press,bd=10,insertwidth=4,bg="crimson",justify='right')
