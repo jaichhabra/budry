@@ -28,7 +28,8 @@ lblInfo.grid(row=1,column=0)
 lblInfo=Label(Tops,font=('arial',20,'bold'),text="**extra charges for winter clothes",fg="green",bd=10,anchor='w')
 lblInfo.grid(row=2,column=0)
 #creating coloumns and grids
-
+print(ibInfo)
+#adding loggger
 def Ref():
     rand.get()==""
 
