@@ -187,6 +187,10 @@ lblPressCost.grid(row=3, column=2)
 txtPressCost=Entry(f1, font=('arial',16,'bold'),textvariable=Press,bd=10,insertwidth=4,bg="crimson",justify='right')
 txtPressCost.grid(row=3,column=3)
 
+
+
+
+print(txtPressCost)
 lblSubTotal= Label(f1, font=('arial', 16, 'bold'),text="Number Of Clothes",bd=16,anchor="w")
 lblSubTotal.grid(row=4, column=2)
 txtSubTotal=Entry(f1, font=('arial',16,'bold'),textvariable=SubTotal,bd=10,insertwidth=4,bg="crimson",justify='right')
